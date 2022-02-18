@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ingreso-egreso-be2e4": {
+      "hosting": {
+        "ingresoEgresoApp": [
+          "ingreso-egreso-be2e4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ingreso-egreso-be2e4"
+  }
+}
