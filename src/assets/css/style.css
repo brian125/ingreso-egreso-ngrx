@@ -59,6 +59,7 @@
 /* === SCSS Compass Functions === */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@media all { p{ display: none; } }
 @-moz-keyframes flash {
   0% {
     opacity: 1; }
@@ -8110,7 +8111,7 @@ pre {
   .offset-xl-10 {
     margin-left: 83.33333%; }
   .offset-xl-11 {
-    margin-left: 91.66667%; } }
+    margin-left: 91.66667%; }
 
 .table {
   width: 100%;
@@ -8617,7 +8618,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   align-items: center; }
   .form-inline .form-check {
     width: 100%; }
- 
+
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -9074,7 +9075,7 @@ input[type="button"].btn-block {
   height: 0;
   overflow: hidden;
   transition: height 0.35s ease; }
-  
+
 
 
 .dropup,
@@ -10942,7 +10943,7 @@ button.close {
   transition: transform 0.6s ease;
   backface-visibility: hidden;
   perspective: 1000px; }
-  
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
@@ -11504,7 +11505,7 @@ button.bg-dark:focus {
   .align-self-xl-baseline {
     align-self: baseline !important; }
   .align-self-xl-stretch {
-    align-self: stretch !important; } }
+    align-self: stretch !important; }
 
 .float-left {
   float: left !important; }
@@ -12048,7 +12049,7 @@ button.bg-dark:focus {
     margin-bottom: auto !important; }
   .ml-xl-auto,
   .mx-xl-auto {
-    margin-left: auto !important; } }
+    margin-left: auto !important; }
 
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
@@ -13046,7 +13047,7 @@ html {
   flex-grow: 1; }
 
 .container-scroller {
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .scroll-container {
